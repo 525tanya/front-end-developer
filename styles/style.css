@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../src/fonts/Roboto-Black.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../src/fonts/Roboto-Italic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    /*text-align: center;*/
+    color: #f7f5f5;
+    background-color: #ffffff;
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-image:url(../src/bg.html);
+    background-size: cover;
+    height: 120px;
+    box-shadow: 3px 4px 5px #270b7b;
+   
+}
+.bg-img{
+    background-image: url(../src/fon.png);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    padding: 20px 0 10px;
+    font-size: 40px;
+
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+main{
+    vertical-align: top;
+    width: 800px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    height: calc(100vh-170px-25px);
+    background-color: rgb(250, 250, 250);
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+main img{
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0px 120px 0px 120px;
+    box-shadow: 3px 4px 5px#270b7b;
+}
+main div{
+    padding: 20px 60px;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: black;
+}
+main div img{
+    width: 80px;
+    border-radius: 0%;
+    display: inline-block;
+}
+ul{
+   
+    padding: 0;
+    display: inline-block;
+}
+h5{
+    display: inline-block;
+}
+#github{
+    width: 30px;
+    border-radius: 20px;
+}
+#post{
+    width: 40px;
+    border-radius: 20px;
+}
+main form{
+    padding: 20px 60px;
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    color: rgb(254, 254, 254);
+    background-color: black;
+    border-radius: 0px 120px 0px 120px;
+    box-shadow: 3px 4px 5px #270b7b;
+}
+main form input{
+    width: 80%;
+    border-radius: 12px;
+}
+main form textarea{
+    width: 80%;
+    border-radius: 12px;
+}
+main div img{
+    max-width: 80px;
+}
+footer{
+    text-align: center;
+    background-image:url(../front-end-developer/src/fon.png) ;
+    background-size: cover;
+    font-size: 26px;
+    padding: 12px;
+    box-shadow:0px 0px 10px #270b7b;
+}
